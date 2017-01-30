@@ -1,0 +1,82 @@
+body {
+    font-family: helvetica, arial, verdana, sans-serif;
+}
+
+input {
+	font-size: 2.4em;
+	background-color: transparent;
+	text-align: center;
+	border-width: 0;
+	width: 100%;
+	margin: 0 0 .1em 0;
+	color: #000;
+}
+
+label {
+	display: block;
+	font-size: .8em;
+}
+
+button {
+	/* basics */
+	color: #fff;
+	background-color: #B5B198;
+	/* rounded corners */
+    -webkit-border-radius: 6px;
+          border-radius: 6px; 
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	font-weight: bold;
+
+}
+
+button:hover, button:active, button:focus {
+	background-color: #CBC7AE;
+}
+
+.box {
+	/* basics */
+	background-color: #444;
+	color: #C4BE92;
+    text-align: center;
+
+	/* rounded corners */
+    -webkit-border-radius: 12px;
+    border-radius: 12px; 
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+    padding: .8em .8em 1em;
+    width: 8em;
+	margin: 0 auto;	
+  	-webkit-box-shadow: 0px 0px 12px 0px #000;
+    box-shadow: 0px 0px 12px 0px #000;
+  
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
